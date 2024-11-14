@@ -1,5 +1,5 @@
-from pymongo import MongoClient
-from bson import ObjectId
+from pymongo import MongoClient # type: ignore
+from bson import ObjectId # type: ignore
 
 client = MongoClient("mongodb+srv://py:py123@cluster0.coyjw.mongodb.net/")
 #Not a good idea to include id and password in code files
